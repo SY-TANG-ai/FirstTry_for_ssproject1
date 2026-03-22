@@ -1,0 +1,410 @@
+{
+  "workclass": {
+    "categories": [
+      "Private",
+      "Self-emp-not-inc",
+      "State-gov"
+    ],
+    "vectors": {
+      "Private": [
+        1,
+        0,
+        0
+      ],
+      "Self-emp-not-inc": [
+        0,
+        1,
+        0
+      ],
+      "State-gov": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "education": {
+    "categories": [
+      "11th",
+      "7th-8th",
+      "9th",
+      "Assoc-acdm",
+      "Bachelors",
+      "HS-grad",
+      "Masters",
+      "Some-college"
+    ],
+    "vectors": {
+      "11th": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "7th-8th": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "9th": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Assoc-acdm": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Bachelors": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "HS-grad": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "Masters": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Some-college": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "marital-status": {
+    "categories": [
+      "Divorced",
+      "Married-civ-spouse",
+      "Married-spouse-absent",
+      "Never-married"
+    ],
+    "vectors": {
+      "Divorced": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "Married-civ-spouse": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "Married-spouse-absent": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "Never-married": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "occupation": {
+    "categories": [
+      "Adm-clerical",
+      "Exec-managerial",
+      "Farming-fishing",
+      "Handlers-cleaners",
+      "Machine-op-inspct",
+      "Other-service",
+      "Prof-specialty",
+      "Sales",
+      "Transport-moving"
+    ],
+    "vectors": {
+      "Adm-clerical": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Exec-managerial": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Farming-fishing": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Handlers-cleaners": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Machine-op-inspct": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Other-service": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Prof-specialty": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "Sales": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Transport-moving": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "relationship": {
+    "categories": [
+      "Husband",
+      "Not-in-family",
+      "Own-child",
+      "Unmarried",
+      "Wife"
+    ],
+    "vectors": {
+      "Husband": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Not-in-family": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Own-child": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "Unmarried": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Wife": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "race": {
+    "categories": [
+      "Amer-Indian-Eskimo",
+      "Asian-Pac-Islander",
+      "Black",
+      "White"
+    ],
+    "vectors": {
+      "Amer-Indian-Eskimo": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "Asian-Pac-Islander": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "Black": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "White": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "sex": {
+    "categories": [
+      "Female",
+      "Male"
+    ],
+    "vectors": {
+      "Female": [
+        1,
+        0
+      ],
+      "Male": [
+        0,
+        1
+      ]
+    }
+  },
+  "native-country": {
+    "categories": [
+      "Cuba",
+      "India",
+      "Jamaica",
+      "Mexico",
+      "United-States"
+    ],
+    "vectors": {
+      "Cuba": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "India": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Jamaica": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "Mexico": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "United-States": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+}
