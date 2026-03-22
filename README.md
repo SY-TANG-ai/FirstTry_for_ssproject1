@@ -15,6 +15,12 @@
 pip install -r requirements.txt
 ```
 
+## 本地环境
+
+- torch 2.10.0+cu128
+- CUDA 12.8
+- GPU NVIDIA GeForce RTX 5080 Laptop GPU
+
 ## 快速运行
 
 1. 预处理与数据切分（生成 Code/checkpoints 下的张量）
