@@ -9,9 +9,15 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 
 def preprocess_data(
-    csv_path: str = r"d:\College-Lecture\cyr_Project1\FirstTry\AdultsData\adult.csv",
+    csv_path: str | None = None,
     n_rows: int = 20,
 ):
+    if csv_path is None:
+        csv_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            "AdultsData",
+            "adult.csv",
+        )
     column_names = [
         "age",
         "workclass",
@@ -114,11 +120,17 @@ def preprocess_data(
 
 
 def prepare_and_save(
-    csv_path: str = r"d:\College-Lecture\cyr_Project1\FirstTry\AdultsData\adult.csv",
+    csv_path: str | None = None,
     n_rows: int = 20,
     random_state_seed: int = 42,
     checkpoints_dir: str | None = None,
 ):
+    if csv_path is None:
+        csv_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            "AdultsData",
+            "adult.csv",
+        )
     processed = preprocess_data(csv_path=csv_path, n_rows=n_rows)
     X = processed.drop(columns=["income"]).to_numpy(dtype="float32")
     y = processed["income"].to_numpy(dtype="int64")
